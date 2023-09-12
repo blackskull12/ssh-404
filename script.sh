@@ -17,24 +17,24 @@ none='\e[0m'
 
 sed -i 's/#\?AllowTcpForwarding .*/AllowTcpForwarding yes/' /etc/ssh/sshd_config && sed -i 's/#\?PasswordAuthentication .*/PasswordAuthentication yes/' /etc/ssh/sshd_config && sed -i 's/#\?Banner .*/Banner \/etc\/ssh\/gcp_404/' /etc/ssh/sshd_config && /etc/init.d/ssh restart;
 echo "
-<h3><font color='red'>▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬
+<h3><font color='#607D8B'>❍ ❖❍ ❖❍ ❖❍ ❖❍ ❖❍ ❖❍ ❖❍ ❖❍ ❖
 </font></h3>
-<h3><font color='magenta'>--- ۩ PREMIUM SERVER ۩ ---
-</font></h3>
-
-<h3><font color='green'>--- ۩ SERVER BY ④ ⍤⃝🌻④ ۩ ---
+<h3><font color='#FF4081'>--- ☞ ɢᴏʟᴅᴇɴ丂ᴋʏ ᴘʀᴇᴍɪᴜᴍ 丂ᴇʀᴠᴇʀ ☜ ---
 </font></h3>
 
-<h4><font color='cyan'>Telegram Channel >> https://t.me/Pmttg
+<h3><font color='#CDDC39'>--- ☞ Sᴇʀᴠᴇʀ ʙʏ Gᴏʟᴅᴇɴʂᴋʏ ☜ ---
+</font></h3>
+
+<h4><font color='#FFB74D'>Admin User >> @blackskull2023
 </font></h4>
 
-<h4><font color='blue'>Telegram Channel >> https://t.me/nkka_404
+<h4><font color='#26C6DA'>Telegram Channel >> http://t.me/goldenskygcp
 </font></h4>
 
-<h3><font color='red'>▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬
+<h3><font color='#607D8B'>❍ ❖❍ ❖❍ ❖❍ ❖❍ ❖❍ ❖❍ ❖❍ ❖❍ ❖
 </font></h3>" | tee /etc/ssh/gcp_404 >/dev/null
-useradd "404" --shell=/bin/false -M
-echo "404:404" | chpasswd
+useradd "goldensky" --shell=/bin/false -M
+echo "freedom:freedom" | chpasswd
 
 echo ""
 
